@@ -581,7 +581,9 @@
     {
       "name": "Dart test config",
       "description": "Configuration for Dart's test package",
-      "fileMatch": ["dart_test.yaml"],
+      "fileMatch": [
+        "dart_test.yaml"
+      ],
       "url": "https://json.schemastore.org/dart-test"
     },
     {
@@ -1441,7 +1443,7 @@
       "name": "pgap_yaml_input_reader",
       "description": "PGAPx yaml input JSON configuration",
       "fileMatch": [
-         "pgap_yaml_input_reader.json"
+        "pgap_yaml_input_reader.json"
       ],
       "url": "https://json.schemastore.org/pgap_yaml_input_reader"
     },
@@ -2535,9 +2537,10 @@
         "*gradle-enterprise.yml",
         "*gradle-enterprise.yaml"
       ],
-      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
+      "url": "https://docs.gradle.com/gradle-enterprise/schema/gradle-enterprise-config-schema-4.json",
       "versions": {
-        "1.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json"
+        "1.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
+        "4.0": "https://docs.gradle.com/gradle-enterprise/schema/gradle-enterprise-config-schema-4.json"
       }
     },
     {
